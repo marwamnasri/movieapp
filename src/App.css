@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+.form{
+  display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 501px;
+    background-color: aqua;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.affich{
+  background-color:whitesmoke;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form input{
+  width: 300px;
+    height: 33px;
+    border-radius: 12px;
+    margin-left: 81px;
 }
+.form label{
+  margin-top: 7px;
+    
+    margin-left: 17px;
+}
+.formulaire form{
+  display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 431px;
+}
+.formulaire input{
+  border-radius: 8px;
+    height: 30px;
+    border: 2px solid gray;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.formulaire label{
+  margin-left: 2px;
+    color: grey;
+    font-size: 19px;
+    margin-top: 11px;
+    
+
+}
+button{
+  margin-left: 120px;
+    border-radius: 50%;
+    width: 80px;
+    height: 40px;
+    margin-top: -12px;
+}
+.search{
+  margin-left: 429px;
+    margin-top: 40px;
+}
+.in1{
+  width: 243px;
+    height: 31px;
+    border: 1px solid black;
+}
+.in2{
+  width: 75px;
+    height: 35px;
+    border: 1px solid black;
+
+}
+.SearchStars{
+  font-size: 12px;
+    margin-left: 20px;
+    margin-top: 0px;
+    position: absolute;
+
+}
+.search li{
+  list-style: none;
+}
+.search li button{
+  width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 0px;
+    margin-left: 296px;
+    
+    margin-top: -32px;
+}
+.Card{
+  display: flex;
+    flex-direction: column;
+    height: 350px;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+.Card span{
+  margin-left: 136px;
+}
+.Card img{
+  width: 200px;
+    height: 300px;
+}
+.Card h2{
+  margin: 0px;
+    margin-left: 67px;
+
+}
+.search{
+  margin-left: 498px;
+  margin-top: -53px;
+  position: absolute;
+}
+.list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 83px;
+}
+.hide{
+  display: none;
+}
+.display{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 300px;
+  height: 249px;
+  justify-content: space-around;
+  margin-left: 40px;
 }
-
-.App-link {
-  color: #61dafb;
+.ajout{
+  border: 1px solid black;
+    width: 199px;
+    height: 224px;
+    margin-left: 49px;
+    margin-top: 40px;
 }
+.ajout h3{
+  margin-left: 75px;
+    margin-top: 50px;
+    font-size: 63px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
